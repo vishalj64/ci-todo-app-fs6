@@ -40,7 +40,7 @@ const Login = () => {
       <form onSubmit={handleSubmit} className="login-form">
         <h3>Login</h3>
         <div>
-          <label htmlFor="email">Enter Email :</label>
+          <label htmlFor="email">Email :</label>
           <input type="email" name="email" id="email" onChange={handleChange} value={email} />
         </div>
         <div>
